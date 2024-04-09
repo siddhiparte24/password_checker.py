@@ -10,7 +10,7 @@ def request_api_data(query_char):
     # Check if the response status code is not 200 (OK)
     if res.status_code != 200:
         # Raise an error if the response status code is not 200
-        raise RuntimeError(f'Error fetching : {res.status_code}, check api and try again. ')
+        raise RuntimeError(f'Error fetchinggg : {res.status_code}, check api and try again. ')
     return res
 
 # Function to check if the tail of the hashed password exists in the API response
